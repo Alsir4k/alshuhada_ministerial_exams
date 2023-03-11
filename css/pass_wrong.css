@@ -1,0 +1,77 @@
+#pass_wrong-section {
+  height: 98svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pass_wrong_box {
+  box-sizing: content-box;
+  width: 400px;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 1px rgb(0 0 0 / 20%);
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: #e7e7e7 2px solid;
+}
+.logos img {
+  width: 160px;
+  margin: auto;
+}
+
+.pass_wrong_box h1 {
+  margin: 40px 0;
+  color: #f44336;
+}
+.pass_wrong_box h4 {
+  margin: 20px 0;
+}
+
+.pass_wrong_box button {
+  margin: 15px 0;
+  background-color: #009e8f;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+  .pass_wrong_box {
+    width: 70%;
+    padding: 30px 30px;
+  }
+  .logos img {
+    max-width: 110px;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  .copyright p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .pass_wrong_box h1 {
+    font-size: 1rem;
+    margin: 20px 0;
+  }
+  .pass_wrong_box h4 {
+    font-size: 0.8rem;
+    margin: 10px 0;
+  }
+  .copyright p {
+    font-size: 7px;
+  }
+}
